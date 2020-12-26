@@ -94,5 +94,14 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Source\крест активный.png" />
+    <Resource Include="Source\крест неактивный.png" />
+    <Resource Include="Source\подчеркивание актив.png" />
+    <Resource Include="Source\подчеркивание неактив.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Source\Logo.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

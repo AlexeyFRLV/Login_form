@@ -5,8 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Login_Form"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Login form" Height="515" Width="365" WindowStartupLocation="Manual" WindowStyle="None" ResizeMode="NoResize">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height ="100"/>
+            <RowDefinition Height ="300"/>
+            <RowDefinition Height="90"/>
+        </Grid.RowDefinitions>
     </Grid>
 </Window>
